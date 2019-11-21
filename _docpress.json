@@ -50,16 +50,38 @@
             "id": "2.",
             "headings": [
               {
-                "title": "2.2 假设和依赖",
+                "title": "2.1 管理系统的用例图",
+                "depth": 3,
+                "id": "2.1"
+              },
+              {
+                "title": "2.2 购票系统的用例图",
                 "depth": 3,
                 "id": "2.2"
+              },
+              {
+                "title": "2.3 用例的概要描述",
+                "depth": 3,
+                "id": "2.3"
+              },
+              {
+                "title": "2.4 假设和依赖",
+                "depth": 3,
+                "id": "2.4"
               }
             ]
           },
           {
             "title": "3. 功能需求",
             "depth": 2,
-            "id": "3."
+            "id": "3.",
+            "headings": [
+              {
+                "title": "3.1 购票系统功能",
+                "depth": 3,
+                "id": "3.1"
+              }
+            ]
           },
           {
             "title": "4. 非功能需求（这一节纯属扯淡，扯就完事了）",
@@ -128,6 +150,24 @@
             ]
           }
         ]
+      },
+      {
+        "title": "线路数据",
+        "source": "data/README.md",
+        "url": "data/index.html",
+        "slug": "data",
+        "headings": [
+          {
+            "title": "数据格式",
+            "depth": 2,
+            "id": ""
+          },
+          {
+            "title": "各列属性解释:",
+            "depth": 2,
+            "id": ":"
+          }
+        ]
       }
     ]
   },
@@ -181,16 +221,38 @@
           "id": "2.",
           "headings": [
             {
-              "title": "2.2 假设和依赖",
+              "title": "2.1 管理系统的用例图",
+              "depth": 3,
+              "id": "2.1"
+            },
+            {
+              "title": "2.2 购票系统的用例图",
               "depth": 3,
               "id": "2.2"
+            },
+            {
+              "title": "2.3 用例的概要描述",
+              "depth": 3,
+              "id": "2.3"
+            },
+            {
+              "title": "2.4 假设和依赖",
+              "depth": 3,
+              "id": "2.4"
             }
           ]
         },
         {
           "title": "3. 功能需求",
           "depth": 2,
-          "id": "3."
+          "id": "3.",
+          "headings": [
+            {
+              "title": "3.1 购票系统功能",
+              "depth": 3,
+              "id": "3.1"
+            }
+          ]
         },
         {
           "title": "4. 非功能需求（这一节纯属扯淡，扯就完事了）",
@@ -259,10 +321,45 @@
           ]
         }
       ]
+    },
+    "data/index.html": {
+      "source": "data/README.md",
+      "title": "线路数据 - metro",
+      "pageTitle": "线路数据",
+      "slug": "data",
+      "headings": [
+        {
+          "title": "数据格式",
+          "depth": 2,
+          "id": ""
+        },
+        {
+          "title": "各列属性解释:",
+          "depth": 2,
+          "id": ":"
+        }
+      ]
     }
   },
   "sources": {
     "README.md": "index.html",
-    "docs/需求分析.md": "需求分析.html"
+    "docs/需求分析.md": "需求分析.html",
+    "data/README.md": "data/index.html",
+    "docs/assets/Line1.png": "assets/Line1.png",
+    "docs/assets/admin.png": "assets/admin.png",
+    "docs/assets/purchase.png": "assets/purchase.png",
+    "docs/assets/地铁线路图.jpg": "assets/地铁线路图.jpg",
+    "docs/assets/UI/IMG_7755.JPG": "assets/UI/IMG_7755.JPG",
+    "docs/assets/UI/dialog-payment.jpg": "assets/UI/dialog-payment.jpg",
+    "docs/assets/UI/homepage.jpg": "assets/UI/homepage.jpg",
+    "docs/assets/UI/line-1.jpg": "assets/UI/line-1.jpg",
+    "docs/assets/UI/line-11.jpg": "assets/UI/line-11.jpg",
+    "docs/assets/UI/line-12.jpg": "assets/UI/line-12.jpg",
+    "docs/assets/UI/line-2.jpg": "assets/UI/line-2.jpg",
+    "docs/assets/UI/line-3.jpg": "assets/UI/line-3.jpg",
+    "docs/assets/UI/line-4.jpg": "assets/UI/line-4.jpg",
+    "docs/assets/UI/line-5.jpg": "assets/UI/line-5.jpg",
+    "docs/assets/UI/line-7.jpg": "assets/UI/line-7.jpg",
+    "docs/assets/UI/line-8.jpg": "assets/UI/line-8.jpg"
   }
 }

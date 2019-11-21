@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../assets/style.css?t=90051322">
+    <script src="../assets/script.js?t=93f1a66c"></script>
+    <title>线路数据 - metro</title>
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body class="-menu-visible">
+    <div class="doc-layout">
+      <div class="toggle menu-toggle js-menu-toggle"></div>
+      <div class="menu toc-menu">
+        <ul>
+          <li class="menu-item -level-0 -parent">
+            <ul class="submenu">
+              <li class="menu-item -level-1"><a class="link title  link-index" href="../index.html">metro</a>
+              </li>
+              <li class="menu-item -level-1"><a class="link title  link-undefined" href="../需求分析.html">需求分析</a>
+              </li>
+              <li class="menu-item -level-1"><a class="link title -active link-data" href="../data/index.html">线路数据</a>
+                <ul class="headings heading-list">
+                  <li class="heading-item -depth-2"><a class="hlink link-" href="#">数据格式</a>
+                  </li>
+                  <li class="heading-item -depth-2"><a class="hlink link-:" href="#:">各列属性解释:</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="body page-data">
+        <div class="header-nav">
+          <div class="right">
+          </div>
+        </div>
+        <div class="markdown-body"><h1 id>&#x6B66;&#x6C49;&#x5730;&#x94C1;&#x8FD0;&#x8425;&#x7EBF;&#x8DEF;&#x6570;&#x636E;</h1>
+<p>1,2,3,4,6,7,8,11,&#x9633;&#x903B;. &#x5171;9&#x6761;&#x7EBF;(&#x6587;&#x4EF6;&#x4E2D;Line12.csv&#x4E3A;&#x9633;&#x903B;&#x7EBF;)</p>
+<p>&#x6709;&#x90E8;&#x5206;&#x7EBF;&#x8DEF;&#x8FD8;&#x5728;&#x4FEE;&#x5EFA;&#x5B8C;&#x5584;&#x5F53;&#x4E2D;, &#x76EE;&#x524D;&#x6587;&#x4EF6;&#x4E2D;&#x53EA;&#x5217;&#x51FA;&#x4E86;&#x5728;&#x8FD0;&#x8425;&#x7684;&#x7EBF;&#x8DEF;</p>
+<p>&#x53E6;&#x5916;8&#x53F7;&#x7EBF;&#x5EFA;&#x8BBE;&#x5DE5;&#x7A0B;&#x5206;3&#x671F;, 1&#x3001;3&#x671F;&#x5EFA;&#x8BBE;&#x5B8C;&#x6BD5;,&#x4F46;3&#x671F;&#x672A;&#x5217;&#x5165;</p>
+<p>&#x539F;&#x56E0;&#x5982;&#x4E0B;:</p>
+<ul>
+<li>2&#x671F;&#x4ECD;&#x5728;&#x5EFA;&#x8BBE;&#x4E2D;, 1&#x671F;&#x548C;3&#x671F;&#x5EFA;&#x8BBE;&#x7684;&#x7AD9;&#x5E76;&#x4E0D;&#x8054;&#x901A;</li>
+<li>3&#x671F;&#x5EFA;&#x8BBE;&#x7684;&#x7AD9;&#x6570;&#x636E;&#x7F3A;&#x5931;, &#x6CA1;&#x6709;&#x8DDD;&#x79BB;&#x6570;&#x636E;</li>
+<li>3&#x671F;&#x4E13;&#x95E8;&#x4E3A;&#x519B;&#x8FD0;&#x4F1A;&#x800C;&#x5EFA;&#x8BBE;, &#x76EE;&#x524D;&#x4F7F;&#x7528;&#x5E94;&#x8BE5;&#x4E0D;&#x591A;</li>
+</ul>
+<h2 id>&#x6570;&#x636E;&#x683C;&#x5F0F;</h2>
+<p>&#x4F7F;&#x7528;csv&#x683C;&#x5F0F;&#x5B58;&#x50A8;, encoding:utf-8</p>
+<p><img src="../assets/Line1.png" alt="Line1"></p>
+<p>&#x4E0A;&#x56FE;&#x4E3A;``Line1.csv`&#x5373;1&#x53F7;&#x7EBF;&#x6570;&#x636E;</p>
+<p>&#x5176;&#x4E2D;, A-J&#x5217;&#x4E3A;&#x5E73;&#x65F6;&#x7684;&#x6570;&#x636E;, K-T&#x4E3A;&#x5468;&#x516D;&#x5468;&#x65E5;&#x7684;&#x6570;&#x636E;, &#x4E8C;&#x8005;&#x7684;&#x533A;&#x522B;&#x53EA;&#x6709;&#x9996;&#x5C3E;&#x73ED;&#x8F66;&#x65F6;&#x95F4;.</p>
+<p>A-E&#x5217;&#x548C;F-J&#x5217;&#x662F;&#x540C;&#x4E00;&#x6761;&#x7EBF;&#x8DEF;,&#x4E0D;&#x540C;&#x9996;&#x5C3E;.</p>
+<h2 id=":">&#x5404;&#x5217;&#x5C5E;&#x6027;&#x89E3;&#x91CA;:</h2>
+<ul>
+<li><strong>station</strong>: &#x8F66;&#x7AD9;&#x540D;</li>
+<li><strong>first_train</strong>: &#x9996;&#x73ED;&#x8F66;&#x65F6;&#x95F4;</li>
+<li><strong>last_train</strong>: &#x672B;&#x73ED;&#x8F66;&#x65F6;&#x95F4;</li>
+<li><strong>interval</strong>: &#x8BE5;&#x7AD9;&#x4E0E;&#x4E0A;&#x4E00;&#x7AD9;&#x4E4B;&#x95F4;&#x7684;&#x8DDD;&#x79BB;, &#x5355;&#x4F4D;&#x4E3A;km, &#x5982;&#x6EE0;&#x53E3;&#x65B0;&#x57CE;&#x4E0E;&#x6C49;&#x53E3;&#x5317;&#x7684;&#x8DDD;&#x79BB;&#x662F;3.41km, &#x9996;&#x53D1;&#x7AD9;&#x7684;inteval&#x5B9A;&#x4E49;&#x4E3A;0</li>
+<li><strong>distance</strong>: &#x8BE5;&#x7AD9;&#x5230;&#x9996;&#x53D1;&#x7AD9;&#x7684;&#x8DDD;&#x79BB;,&#x5355;&#x4F4D;&#x4E3A;km, &#x5982;&#x65B0;&#x8363;&#x4E0E;&#x6C49;&#x53E3;&#x5317;&#x7684;&#x8DDD;&#x79BB;&#x662F;6.72km</li>
+</ul>
+
+        </div>
+        <div class="footer-nav">
+          <div class="left"><a href="../需求分析.html"><span class="title">需求分析</span></a></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
