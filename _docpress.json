@@ -9,8 +9,9 @@
       },
       {
         "title": "需求分析",
-        "source": "docs/需求分析.md",
-        "url": "需求分析.html",
+        "source": "docs/round-1.md",
+        "url": "round-1.html",
+        "slug": "round-1",
         "headings": [
           {
             "title": "修订历史记录",
@@ -178,6 +179,63 @@
             "id": ""
           }
         ]
+      },
+      {
+        "title": "迭代二成果展示",
+        "source": "docs/round-2-show.md",
+        "url": "round-2-show.html",
+        "slug": "round-2-show",
+        "headings": [
+          {
+            "title": "前端",
+            "depth": 2,
+            "id": "",
+            "headings": [
+              {
+                "title": "1. 对地铁线路图的预处理",
+                "depth": 3,
+                "id": "1."
+              },
+              {
+                "title": "2. 实现在主页地铁线路图上选择起点和终点的功能",
+                "depth": 3,
+                "id": "2."
+              },
+              {
+                "title": "3.\"S形曲线\"的初步实现",
+                "depth": 3,
+                "id": "3.\"s\""
+              },
+              {
+                "title": "4. 其他界面的效果图",
+                "depth": 3,
+                "id": "4."
+              }
+            ]
+          },
+          {
+            "title": "后端",
+            "depth": 2,
+            "id": "",
+            "headings": [
+              {
+                "title": "1. 最短路径算法设计",
+                "depth": 3,
+                "id": "1."
+              },
+              {
+                "title": "2. 数据库设计",
+                "depth": 3,
+                "id": "2."
+              },
+              {
+                "title": "3. Django和REST framework学习",
+                "depth": 3,
+                "id": "3.-djangorest-framework"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -188,10 +246,11 @@
       "pageTitle": "metro",
       "slug": "index"
     },
-    "需求分析.html": {
-      "source": "docs/需求分析.md",
+    "round-1.html": {
+      "source": "docs/round-1.md",
       "title": "需求分析 - metro",
       "pageTitle": "需求分析",
+      "slug": "round-1",
       "headings": [
         {
           "title": "修订历史记录",
@@ -359,12 +418,70 @@
           "id": ""
         }
       ]
+    },
+    "round-2-show.html": {
+      "source": "docs/round-2-show.md",
+      "title": "迭代二成果展示 - metro",
+      "pageTitle": "迭代二成果展示",
+      "slug": "round-2-show",
+      "headings": [
+        {
+          "title": "前端",
+          "depth": 2,
+          "id": "",
+          "headings": [
+            {
+              "title": "1. 对地铁线路图的预处理",
+              "depth": 3,
+              "id": "1."
+            },
+            {
+              "title": "2. 实现在主页地铁线路图上选择起点和终点的功能",
+              "depth": 3,
+              "id": "2."
+            },
+            {
+              "title": "3.\"S形曲线\"的初步实现",
+              "depth": 3,
+              "id": "3.\"s\""
+            },
+            {
+              "title": "4. 其他界面的效果图",
+              "depth": 3,
+              "id": "4."
+            }
+          ]
+        },
+        {
+          "title": "后端",
+          "depth": 2,
+          "id": "",
+          "headings": [
+            {
+              "title": "1. 最短路径算法设计",
+              "depth": 3,
+              "id": "1."
+            },
+            {
+              "title": "2. 数据库设计",
+              "depth": 3,
+              "id": "2."
+            },
+            {
+              "title": "3. Django和REST framework学习",
+              "depth": 3,
+              "id": "3.-djangorest-framework"
+            }
+          ]
+        }
+      ]
     }
   },
   "sources": {
     "README.md": "index.html",
-    "docs/需求分析.md": "需求分析.html",
+    "docs/round-1.md": "round-1.html",
     "data/README.md": "data/index.html",
+    "docs/round-2-show.md": "round-2-show.html",
     "docs/assets/Line1.png": "assets/Line1.png",
     "docs/assets/admin.png": "assets/admin.png",
     "docs/assets/algorithm.jpg": "assets/algorithm.jpg",
@@ -375,6 +492,7 @@
     "docs/assets/grephi.jpg": "assets/grephi.jpg",
     "docs/assets/grephi_webpage.jpg": "assets/grephi_webpage.jpg",
     "docs/assets/homepage.png": "assets/homepage.png",
+    "docs/assets/map-original.jpg": "assets/map-original.jpg",
     "docs/assets/map.png": "assets/map.png",
     "docs/assets/metro-2.svg": "assets/metro-2.svg",
     "docs/assets/purchase.png": "assets/purchase.png",
@@ -384,7 +502,6 @@
     "docs/assets/station3.png": "assets/station3.png",
     "docs/assets/wuhantong1.png": "assets/wuhantong1.png",
     "docs/assets/wuhantong2.png": "assets/wuhantong2.png",
-    "docs/assets/地铁线路图.jpg": "assets/地铁线路图.jpg",
     "docs/assets/UI/IMG_7755.JPG": "assets/UI/IMG_7755.JPG",
     "docs/assets/UI/dialog-payment.jpg": "assets/UI/dialog-payment.jpg",
     "docs/assets/UI/homepage.jpg": "assets/UI/homepage.jpg",
